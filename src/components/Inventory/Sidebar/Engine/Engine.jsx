@@ -21,6 +21,12 @@ function Engine({ handleChange }) {
           title="V12"
           name="test3"
         />
+        <Input
+          handleChange={handleChange}
+          value="V10"
+          title="V10"
+          name="test3"
+        />
         <Input handleChange={handleChange} value="V8" title="V8" name="test3" />
         <Input handleChange={handleChange} value="V6" title="V6" name="test3" />
         <Input handleChange={handleChange} value="V4" title="V4" name="test3" />
