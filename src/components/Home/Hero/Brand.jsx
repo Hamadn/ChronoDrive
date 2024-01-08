@@ -5,10 +5,10 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Unstable_Grid2";
 import Container from "../../container/Container";
 import Logo from "../../Logo";
-import Ferrari from "/home/hamad/Chrono Drive/src/assets/ferrari-seeklogo.com-5.svg";
-import Audi from "/home/hamad/Chrono Drive/src/assets/audi-seeklogo.com.svg";
-import McLaren from "/home/hamad/Chrono Drive/src/assets/mclaren-seeklogo.com.svg";
-import Tesla from "/home/hamad/Chrono Drive/src/assets/tesla-seeklogo.com.svg";
+import Ferrari from "../../../assets/ferrari-seeklogo.com-5.svg";
+import Audi from "../../../assets/audi-seeklogo.com.svg";
+import McLaren from "../../../assets/mclaren-seeklogo.com.svg";
+import Tesla from "../../../assets/tesla-seeklogo.com.svg";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: "#fff",
