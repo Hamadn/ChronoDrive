@@ -1,7 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "/home/hamad/Chrono Drive/src/assets/chronodrive.svg";
+import logo from "../../assets/chronodrive.svg";
 import Logo from "../Logo";
 const menuItems = [
   {
