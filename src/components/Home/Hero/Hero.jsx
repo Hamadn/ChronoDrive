@@ -23,7 +23,7 @@ export default function Hero() {
                 <div className="flex flex-col">
                   <select
                     id="status"
-                    className="w-full text-xl font-bold rounded border-2 border-red-700 text-gray-600 h-14 pl-5 pr-10 bg-white focus:outline-none appearance-none"
+                    className="w-full text-xl font-bold rounded border-2 border-red-700 text-black h-14 pl-5 pr-10 bg-white focus:outline-none appearance-none"
                   >
                     <option>All Makes</option>
                     <option>Ferrari</option>
@@ -36,21 +36,31 @@ export default function Hero() {
                 <div className="flex flex-col">
                   <select
                     id="status1"
-                    className="text-xl font-bold rounded border-2 border-red-700 text-gray-600 h-14 w-full pl-5 pr-10 bg-white focus:outline-none appearance-none"
+                    className="text-xl font-bold rounded border-2 border-red-700 text-black h-14 w-full pl-5 pr-10 bg-white focus:outline-none appearance-none"
                   >
                     <option>All Models</option>
-                    <option>Pending</option>
-                    <option>Deleted</option>
+                    <option>Portofino</option>
+                    <option>GT-R</option>
+                    <option>S5</option>
+                    <option>720S</option>
+                    <option>Rogue</option>
+                    <option>Model X</option>
                   </select>
                 </div>
                 <div className="flex flex-col">
                   <select
                     id="status2"
-                    className="text-xl font-bold rounded border-2 border-red-700 text-gray-600 h-14 w-full pl-5 pr-10 bg-white focus:outline-none appearance-none"
+                    className="text-xl font-bold rounded border-2 border-red-700 text-black h-14 w-full pl-5 pr-10 bg-white focus:outline-none appearance-none"
                   >
                     <option>All Years</option>
-                    <option>Pending</option>
-                    <option>Deleted</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
                   </select>
                 </div>
                 <div className="flex flex-col">
@@ -59,8 +69,13 @@ export default function Hero() {
                     className="text-xl font-bold rounded border-2 border-red-700 text-black h-14 w-full pl-5 pr-10 bg-white focus:outline-none appearance-none"
                   >
                     <option>All Engines</option>
-                    <option>Pending</option>
-                    <option>Deleted</option>
+                    <option>V12</option>
+                    <option>V10</option>
+                    <option>V8</option>
+                    <option>V6</option>
+                    <option>V4</option>
+                    <option>V3</option>
+                    <option>Electric</option>
                   </select>
                 </div>
               </div>
