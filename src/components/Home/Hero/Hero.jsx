@@ -1,4 +1,4 @@
-import logo from "/home/hamad/Chrono Drive/src/assets/2022-mclaren-artura-side-view-exterior-orange-sports-coupe-2055567858.jpg";
+import logo from "../../../assets/McLaren-Background.jpg";
 import Container from "../../container/Container";
 import Button from "../../Button";
 export default function Hero() {
